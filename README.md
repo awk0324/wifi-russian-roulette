@@ -25,7 +25,7 @@ If you have an AP with multiple wlan interfaces and/or SSIDs, pass the correct i
 ````
 hostapd_cli -iwlan0-2 -a ./roulette.sh
 ````
-Last but no least, if you want to keep a log (e.g. to cheer you up on a rainy day) simply redirect the output to a file:
+Last but not least, if you want to keep a log (e.g. to cheer you up on a rainy day) simply redirect the output to a file:
 ````
 hostapd_cli -iwlan0-2 -a ./roulette.sh 1 >> roulette.log 2>&1
 ````
