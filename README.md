@@ -1,6 +1,5 @@
 # wifi russian roulette
-![GitHub Logo](https://github.com/awk0324/wifi-russian-roulette/blob/master/Nagant_Revolver.jpg)
-![#](https://en.wikipedia.org/wiki/Russian_roulette)
+![Nagant M1895 revolver](https://github.com/awk0324/wifi-russian-roulette/blob/master/Nagant_Revolver.jpg)
 
 
 ## what is this thing ##
@@ -32,3 +31,5 @@ Last but not least, if you want to keep a log (e.g. to cheer you up on a rainy d
 ````
 hostapd_cli -iwlan0-2 -a ./roulette.sh 1 >> roulette.log 2>&1
 ````
+
+ref: https://en.wikipedia.org/wiki/Russian_roulette
