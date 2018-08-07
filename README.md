@@ -19,7 +19,7 @@ opkg install wpad hostapd-utils
 opkg install bash
 ```
 ## how to run it ##
-Strictly seen you only need the roulette.sh file. The script will moan about the missing death.note first but eventyally create a new one. Your call. Once the file(s) are on the router, just run 
+Strictly seen you only need the roulette.sh file. The script will moan about the missing death.note first but will eventually create a new one. Your call. Once the file(s) are on the router, just run 
 ````
 hostapd_cli -a ./roulette.sh
 ````
