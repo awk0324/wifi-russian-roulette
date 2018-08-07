@@ -31,5 +31,8 @@ Last but not least, if you want to keep a log (e.g. to cheer you up on a rainy d
 ````
 hostapd_cli -iwlan0-2 -a ./roulette.sh 1 >> roulette.log 2>&1
 ````
-----
-ref: https://en.wikipedia.org/wiki/Russian_roulette
+
+#### references #### 
+https://en.wikipedia.org/wiki/Russian_roulette
+
+https://en.wikipedia.org/wiki/Bastard_Operator_From_Hell
