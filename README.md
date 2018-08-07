@@ -1,4 +1,7 @@
 # wifi russian roulette
+![GitHub Logo](https://github.com/awk0324/wifi-russian-roulette/blob/master/Nagant_Revolver.jpg)
+![#](https://en.wikipedia.org/wiki/Russian_roulette)
+
 
 ## what is this thing ##
 This is a simple script which gets executed every time someone connects to a wifi network. It draws two random numbers between 1 and 6, an equivalent of the position of the round in the revolver's drum and the position of the drum itself. So metaphorically it loads a round in the revolver and spins the drum. When these two numbers differ, the scripts logs "lucky boi" and leaves the person to use the wifi. However, when these numbers are the same the script logs "Bang!" and kicks the user out of the network. And because nowadays phones reconnect like crazy, the script also keeps a neat little Death Note, so whenever someone who "got killed" previously shows up, it just logs "zombies cannot play" and kicks the user out again. Seems to work particularly nicely when the (re)connecting users are walking around the areas where wifi just barely reaches. The more reconnects, the more of a chance the Bang! comes along. 
