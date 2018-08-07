@@ -11,8 +11,8 @@ then
 			echo '   zombies cannot play'
 			hostapd_cli -iwlan0 disassociate $3 > /dev/null
 		else
-		CHAMBER=$(echo $((( RANDOM % 6 ) + 1 )))
-		REVOLVER=$(echo $((( RANDOM % 6 ) + 1 )))
+			CHAMBER=$(echo $((( RANDOM % 6 ) + 1 )))
+			REVOLVER=$(echo $((( RANDOM % 6 ) + 1 )))
 			if [ $CHAMBER == $REVOLVER ]
 				then
 					echo "BANG! You died."
