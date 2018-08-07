@@ -9,12 +9,12 @@ Come to think of it, this could become a part of a nice BOFH toolkit for enterta
 
 ## how to install it ##
 Technically spoken all is done by a simple shell script triggered via hostapd_cli. It is meant to run on a single instance of hostapd (one SSID) and should run on any OpenWrt box. Well it should run pretty much on any linux box (famous last words). The following steps were tested on OpenWrt 17 and 18:
-1) Install hostapd_cli. You'll likely need to remove the wpad-mini:
+1) Install `<hostapd_cli>`. You'll likely need to remove the `<wpad-mini>`:
 ```
 opkg remove wpad-mini
 opkg install wpad hostapd-utils
 ```
-2) Install bash. Not strictly needed, but essential to honor the BOFH aspect.
+2) Install `<bash>`. Not strictly needed, but essential to honor the BOFH aspect.
 ```
 opkg install bash
 ```
@@ -31,5 +31,5 @@ Last but not least, if you want to keep a log (e.g. to cheer you up on a rainy d
 ````
 hostapd_cli -iwlan0-2 -a ./roulette.sh 1 >> roulette.log 2>&1
 ````
-
+----
 ref: https://en.wikipedia.org/wiki/Russian_roulette
