@@ -4,7 +4,7 @@ then
 	date
   	echo "new player with mac id $3"
 
-		DEAD_ALREADY=$(grep $3 ./death.note)
+		DEAD_ALREADY=$(grep -i $3 ./death.note)
 
 		if [ -n "$DEAD_ALREADY" ]
 		then
